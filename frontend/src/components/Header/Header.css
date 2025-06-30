@@ -1,0 +1,9 @@
+.header {
+    height: 34vw;
+    width: 100%;
+    max-width: 3000px;
+    margin: 30px auto;
+    background: url("./Bakery_banner2.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
