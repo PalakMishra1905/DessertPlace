@@ -44,11 +44,15 @@ git clone https://github.com/PalakMishra1905/Dessertplace.git
 cd Dessertplace
 cd backend
 npm install
-npm start
+npm run server
 
 cd ../frontend
 npm install
-npm start
+npm run dev
+
+cd ../admin
+npm install
+npm run dev
 
 Dessertplace/
 ├── backend/
