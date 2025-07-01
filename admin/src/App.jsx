@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 const App = () => {
 
-    const url = "https://dessertplace-backend-1.onrender.com";
+    // const url = "https://dessertplace-backend-1.onrender.com";
 
   return (
     <div>
@@ -20,9 +20,9 @@ const App = () => {
       <div className="app-content">
         <Sidebar/>
         <Routes>
-          <Route path='/add'element={<Add url={url}/>}/>
-          <Route path='/list'element={<List url={url}/>}/>
-          <Route path='/orders' element={<Order url={url}/>}/>
+          <Route path='/add'element={<Add url="https://dessertplace-backend-1.onrender.com"/>}/>
+          <Route path='/list'element={<List url="https://dessertplace-backend-1.onrender.com"/>}/>
+          <Route path='/orders' element={<Order url="https://dessertplace-backend-1.onrender.com"/>}/>
         </Routes>
       </div>
     </div>
