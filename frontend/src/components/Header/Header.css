@@ -1,9 +1,13 @@
 .header {
-    height: 34vw;
-    width: 100%;
-    max-width: 3000px;
-    margin: 30px auto;
-    background: url("./Bakery_banner2.jpg") no-repeat center;
-    background-size: cover;
-    position: relative;
+  width: 100%;
+  height: auto; /* Allow container height to grow with image */
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.header-contents img {
+  width: 100%;
+  height: auto;
+   display: block;
+  object-fit: contain;
 }
