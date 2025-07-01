@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://dessertplace-backend.onrender.com'
+export const url = 'https://dessertplace-backend-1.onrender.com'
