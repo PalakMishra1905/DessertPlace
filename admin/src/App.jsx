@@ -20,9 +20,9 @@ const App = () => {
       <div className="app-content">
         <Sidebar/>
         <Routes>
-          <Route path='/add'element={<Add url="https://dessertplace-backend-1.onrender.com"/>}/>
-          <Route path='/list'element={<List url="https://dessertplace-backend-1.onrender.com"/>}/>
-          <Route path='/orders' element={<Order url="https://dessertplace-backend-1.onrender.com"/>}/>
+          <Route path='/add'element={<Add url="https://dessertplace-backend-2.onrender.com"/>}/>
+          <Route path='/list'element={<List url="https://dessertplace-backend-2.onrender.com"/>}/>
+          <Route path='/orders' element={<Order url="https://dessertplace-backend-2.onrender.com"/>}/>
         </Routes>
       </div>
     </div>
