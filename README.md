@@ -13,6 +13,7 @@ Built with the **MERN stack**:
 ## 🌐 Live Demo
 - frontend  https://dessertplace-frontend-8.onrender.com
 - admin     https://dessertplace-admin-5.onrender.com
+- backend   https://dessertplace-backend-2.onrender.com
 
 ---
 
